@@ -6,7 +6,7 @@ for (var i = 0; i < numOfDrumButtons; i++) {
 }
 
 function handleClick() {
-    this.style.color = "white";
+    // this.style.color = "white";
 
     playSound(this.innerHTML);
 
